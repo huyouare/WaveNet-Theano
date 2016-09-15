@@ -3,7 +3,12 @@ Implementation of WaveNet: A Generative Model for Raw Audio
 
 ![figure](https://storage.googleapis.com/deepmind-live-cms.google.com.a.appspot.com/documents/BlogPost-Fig2-Anim-160908-r01.gif)
 
-Implementation includes:
+#### Dependencies
+[Theano](https://github.com/Theano/Theano)  
+[Lasagne](https://github.com/Lasagne/Lasagne)  
+[Keras](https://github.com/fchollet/keras)  
+
+#####Implementation includes:  
 - Causal convolutional layers (implemented by masking)
 - Dilated (à trous) convolutional layer blocks
 - 256-class softmax 
@@ -16,12 +21,12 @@ Implementation includes:
 - Tested on VCTK (Yamagishi, 2012) data set [In-Progress]
 - Testing on music datasets [TODO]
 
-Blog  
+#####DeepMind Blog Post  
 https://deepmind.com/blog/wavenet-generative-model-raw-audio/
 
-Paper  
+#####Paper  
 https://arxiv.org/pdf/1609.03499.pdf
 
-Parts adapted from   
+#####Parts adapted from   
 https://github.com/igul222/pixel_rnn and  
 https://github.com/kundan2510/pixelCNN
